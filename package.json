@@ -2,8 +2,9 @@
   "name": "@yfnote/format_message",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/scripts/index.node.js",
+  "browser": "dist/src/index.browser.js",
+  "types": "dist/src/index.browser.d.ts",
   "scripts": {
     "build": "tsc && tsc-alias",
     "generateFormatType": "ts-node  -r tsconfig-paths/register ./scripts",

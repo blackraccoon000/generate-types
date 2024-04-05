@@ -1,4 +1,4 @@
-import { generateFormatType } from "./index"
+import { generateFormatType } from "."
 
 describe("generateFormatType", () => {
   it("should generate correct type string for valid template", async () => {
