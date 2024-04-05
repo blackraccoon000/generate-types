@@ -1,2 +1,2 @@
-export { formatMessage } from "./formatMessage"
+// export { formatMessage } from "./formatMessage"
 export { createMessageFormatter } from "./createMessageFormatter"

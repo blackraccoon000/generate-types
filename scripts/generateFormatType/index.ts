@@ -21,7 +21,7 @@ const paramsChecker = (params: string[], key: string, element: string) => {
   }
 }
 
-type TemplateType = string | { [key: string]: TemplateType }
+export type TemplateType = string | { [key: string]: TemplateType }
 
 // テンプレートを再帰的に探索して、正しい型を生成する
 const recursionMatches = (obj: TemplateType) => {
