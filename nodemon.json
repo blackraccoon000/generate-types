@@ -1,7 +1,7 @@
 {
-  "watch": ["scripts"],
+  "watch": ["src"],
   "ext": "ts",
-  "ignore": ["scripts/**/*.spec.ts"],
-  "exec": "ts-node -r tsconfig-paths/register ./scripts/index.ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node -r tsconfig-paths/register ./src/index.ts",
   "require": ["tsconfig-paths/register"]
 }

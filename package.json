@@ -1,9 +1,9 @@
 {
-  "name": "@yfnote/create-message-formatter",
+  "name": "@yfnote/generate-types",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index.browser.js",
-  "types": "dist/src/index.browser.d.ts",
+  "main": "dist/src/index.node.js",
+  "types": "dist/src/index.node.d.ts",
   "scripts": {
     "build": "tsc && tsc-alias",
     "generateFormatType": "ts-node  -r tsconfig-paths/register ./scripts",
