@@ -1,12 +1,11 @@
 {
   "name": "@yfnote/generate-types",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/index.node.js",
   "types": "dist/index.node.d.ts",
   "scripts": {
     "build": "tsc && tsc-alias",
-    "generateFormatType": "ts-node  -r tsconfig-paths/register ./scripts",
     "start": "nodemon",
     "test": "jest"
   },
