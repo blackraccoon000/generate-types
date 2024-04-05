@@ -1,9 +1,9 @@
 {
   "name": "@yfnote/generate-types",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
-  "main": "dist/src/index.node.js",
-  "types": "dist/src/index.node.d.ts",
+  "main": "dist/index.node.js",
+  "types": "dist/index.node.d.ts",
   "scripts": {
     "build": "tsc && tsc-alias",
     "generateFormatType": "ts-node  -r tsconfig-paths/register ./scripts",
@@ -15,15 +15,15 @@
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^29.5.12",
+    "@types/prettier": "^2.7.3",
     "jest": "^29.7.0",
     "nodemon": "^3.1.0",
+    "prettier": "^2.8.8",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4"
   },
   "devDependencies": {
-    "@types/prettier": "^2.7.3",
-    "prettier": "^2.8.8",
     "tsc-alias": "^1.8.8",
     "tsconfig-paths": "^4.2.0"
   }
