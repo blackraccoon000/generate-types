@@ -1,5 +1,5 @@
 {
-  "name": "@rac/format_message",
+  "name": "@yfnote/format_message",
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.js",
