@@ -1,6 +1,6 @@
 {
   "name": "@yfnote/generate-types",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/index.node.js",
   "types": "dist/index.node.d.ts",

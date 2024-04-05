@@ -37,9 +37,10 @@ const recursionMatches = (obj: TemplateType) => {
         if (!params) {
           return types
         }
-        paramsChecker(params, key, element)
+        const uniqParams = Array.from(new Set(params))
+        paramsChecker(uniqParams, key, element)
 
-        const typeString = `"${element}": [${Array(params.length)
+        const typeString = `"${element}": [${Array(uniqParams.length)
           .fill("string")
           .join(", ")}]`
         types.push(typeString)
