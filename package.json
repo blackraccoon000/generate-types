@@ -1,11 +1,11 @@
 {
   "name": "@yfnote/format_message",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/src/formatMessage/index.js",
   "types": "dist/src/formatMessage/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "generateFormatType": "ts-node  -r tsconfig-paths/register ./scripts",
     "start": "nodemon",
     "test": "jest"
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/prettier": "^2.7.3",
     "prettier": "^2.8.8",
+    "tsc-alias": "^1.8.8",
     "tsconfig-paths": "^4.2.0"
   }
 }
