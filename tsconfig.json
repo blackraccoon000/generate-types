@@ -14,6 +14,6 @@
       "libs/*": ["libs/*"]
     }
   },
-  "include": ["scripts/**/*.ts"],
+  "include": ["scripts/**/*.ts", "src/**/*.ts", "libs/**/*.ts"],
   "exclude": ["node_modules"]
 }
