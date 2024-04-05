@@ -1,6 +1,5 @@
 import { TemplateType, generateFormatType } from "../generateFormatType"
 import fs from "fs"
-import path from "path"
 
 /**
  * Generate format type and write to file
@@ -11,8 +10,7 @@ export const writeFormatType = async (
   filePath: string
 ) => {
   generateFormatType(templates).then((res) => {
-    const p = path.resolve(__dirname, filePath)
-    fs.writeFileSync(p, res)
-    console.log(`Generated ${p}`)
+    fs.writeFileSync(filePath, res)
+    console.log(`Generated ${filePath}`)
   })
 }
